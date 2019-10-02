@@ -1,0 +1,38 @@
+{
+    "/dogs": {
+        "post": {
+            "response": {
+                "headers": {},
+                "body": {},
+                "status": 201
+            }
+        },
+        "get": {
+            "response": {
+                "headers": {},
+                "body": [{
+                    "id": 1,
+                    "name": "Douglas",
+                    "age": 1
+                }, {
+                    "name": "Lara",
+                    "age": 3 
+                }],
+                "status": 200
+            }
+        }
+    },
+    "/dogs/:id": {
+        "get": {
+            "response": {
+                "headers": {},
+                "body": {
+                    "id": 1,
+                    "name": "Douglas",
+                    "age": 1
+                },
+                "status": 200
+            }
+        }
+    }
+}

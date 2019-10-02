@@ -1,0 +1,38 @@
+{
+    "/cats": {
+        "post": {
+            "response": {
+                "headers": {},
+                "body": {},
+                "status": 201
+            }
+        },
+        "get": {
+            "response": {
+                "headers": {},
+                "body": [{
+                    "id": 1,
+                    "name": "kitty",
+                    "age": 1
+                }, {
+                    "name": "Ben",
+                    "age": 3 
+                }],
+                "status": 200
+            }
+        }
+    },
+    "/cats/:id": {
+        "get": {
+            "response": {
+                "headers": {},
+                "body": {
+                    "id": 1,
+                    "name": "kitty",
+                    "age": 1
+                },
+                "status": 200
+            }
+        }
+    }
+}
